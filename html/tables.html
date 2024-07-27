@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table tr,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<!--<body>
+    <table>
+        <caption>this is my first savings</caption>
+        <thead>
+            <tr>
+                <th>month</th>
+                <th>savings</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>jan</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>feb</td>
+                <td>2000</td>
+            </tr>
+        </tbody>
+    </table>-->
+<form action="https://www.google.com/">
+    <table border="1" >
+        <tr>
+            <td>
+                <label for="username">  username: </label>
+            </td>
+            <td>
+                <input type="text" name="username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">password:</label>
+            </td>
+            <td>
+                <input type="password" name="password">
+            </td>
+        </tr>
+    </table>
+    <button>submit</button><br>
+<pre>
+<input type="radio">
+<input type="checkbox">
+<input type="video">
+</pre>
+</form>
+<br>
+<hr>
+<table border="1">
+
+    <thead>
+        <th>name</th>
+        <th>age</th>
+        <th>gender</th>
+        <th>id</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>rohit</td>
+            <td>40</td>
+            <td>male</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>rohit</td>
+            <td>40</td>
+            <td>male</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>rohit</td>
+            <td>40</td>
+            <td>male</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>rohit</td>
+            <td>40</td>
+            <td>male</td>
+            <td>45</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr>
+    
+<table border="1">
+    <tr>
+        <td>col1</td>
+        <td>col2</td>
+        <td>col3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">row1 cell1</td>
+        <td>row1 cell2</td>
+        <td>row1 cell3</td>
+    </tr>
+    <tr>
+        <td>row2 cell2</td>
+        <td>row2 cell3</td>
+    </tr>
+    <tr>
+        <td colspan="3">row3 cell3</td>
+    </tr>
+</table>
+
+<hr>
+
+<table border="1">
+
+    <thead>
+        <th>no</th>
+        <th>name</th>
+        <th>position</th>
+        <th>salary</th>
+        <th>type</th>
+
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>rohit</td>
+            <td>caption</td>
+            <td>45</td>
+            <td rowspan="4">cricket</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>rohit</td>
+            <td>caption</td>
+            <td>45</td>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>rohit</td>
+            <td>caption</td>
+            <td>45</td>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>rohit</td>
+            <td>caption</td>
+            <td>45</td>
+            
+        </tr>
+
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="4">total</td>
+            <td>india</td>
+        </tr>
+
+    </tfoot>
+
+</table>
+<hr>
+<style>
+    table th td{
+        border:black 50px;
+        border-collapse: collapse;
+
+    }
+</style>
+<table border="1">
+    <thead style="background-color: aqua;">
+        <th>month</th>
+        <th>salary</th>
+        <th>savings</th>
+
+    </thead>
+    <tbody>
+        <tr>
+            <td>jan</td>
+            <td>50000</td>
+            <td>20000</td>
+        </tr>
+        <tr>
+            <td>feb</td>
+            <td>50000</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td>oct</td>
+            <td>300000</td>
+            <td>25000</td>
+        </tr>
+        <tr>
+            <td>total:</td>
+            <td colspan="2">10000</td>
+        </tr>
+
+    </tbody>
+</table>
+<hr>
+<table border="1">
+    <colgroup>
+        <col span="1" style="background-color: aqua;">
+        <col span="2" style="background-color: bisque;">
+        <col span="1" style="background-color: azure;">
+    </colgroup>
+    <tr>
+        <td rowspan="2">state of health</td>
+        <td colspan="2">fasting value</td>
+        <td>after eating</td>
+    </tr>
+    <tr>
+        <td>minimum</td>
+        <td>maximum</td>
+        <td>2hours after eating</td>
+    </tr>
+    <tr>
+        <td>healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>less than 140</td>
+    </tr>
+    <tr>
+        <td>daibities</td>
+        <td>101</td>
+        <td>123</td>
+        <td>120 to 200</td>
+    </tr>
+    <tr>
+        <td style="visibility: collapse;">daibities</td> <!--hide columns we use this-->
+        <td>101</td>
+        <td>123</td>
+        <td>more than 200</td>
+    </tr>
+</table>
+<hr>
+
+</body>
+</html>
